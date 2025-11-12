@@ -1,0 +1,3 @@
+df.to_csv("books_1000.csv", index=False)
+from google.colab import files
+files.download("books_1000.csv")
